@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  width: 100%;
+  font-family: Helvetica, sans;
+  margin: 0;
+  padding: 0;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+#title {
+  flex: 1;
+  display: block;
+  order: 1;
+  font-size: 3em;
+  letter-spacing: 0.02em;
+  margin: 0;
+}
+
+#logo {
+  display: block;
+  flex: 1;
+  order: 0;
+}
+
+#clock {
+  display: block;
+  font-size: x-large;
+  font-family: fixed;
+  letter-spacing: 0.3em;
+  margin: 1em 0;
+  flex: 1;
+  order: 2;
+}
+
+#tweets {
+  display: block;
+  min-width: 600px;
+  max-height: 400px;
+  order: 3;
+}
+
+#tweets iframe {
+  width: 50em;
+}
+
